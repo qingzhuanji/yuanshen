@@ -171,12 +171,30 @@
         .search-box input[type="text"]::placeholder {
             color: transparent;
         }
+
+        .slogan {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #7f4cd5;  /* 使用刻晴主题色 */
+            text-align: center;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+            animation: glowing 2s ease-in-out infinite;
+        }
+
+        @keyframes glowing {
+            0% { opacity: 0.8; }
+            50% { opacity: 1; transform: scale(1.05); }
+            100% { opacity: 0.8; }
+        }
     </style>
 </head>
 <body>
     <div class="keqing-container">
         <img src="https://uploadstatic.mihoyo.com/contentweb/20200103/2020010311340937357.png" alt="刻晴" class="keqing-image">
     </div>
+
+    <div class="slogan">干饭元神，MC永存</div>
 
     <div class="logo-container">
         <div class="microsoft-logo">
