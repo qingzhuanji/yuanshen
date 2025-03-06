@@ -1,6 +1,6 @@
 def geometric_sum_formula(first_term, r, n):
     """
-    使用等比数列求和公式计算和
+    使用等比数列求和公式计算和123123213123
     :param first_term: 首项
     :param r: 公比
     :param n: 项数
